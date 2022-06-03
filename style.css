@@ -1,0 +1,61 @@
+html {
+
+    background-color: rgb(237, 245, 245);
+}
+
+.header {
+    
+    background-size: cover;
+    border: 5px solid rgb(232, 246, 246);
+    border-radius: 2%;
+    text-align: center;
+    height: 6rem;
+}
+
+.maindiv {
+
+    text-align: center;
+}
+
+
+h1 {
+    padding-top: 1rem;
+    font-family: fantasy;
+    color: rgb(5, 5, 96);
+}
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    table-layout: fixed;
+
+}
+
+table tr td {
+
+    border: 2px solid rgb(42, 42, 120);
+}
+
+#playerScore,
+#computerScore {
+    color: rgb(190, 12, 12);
+    border: 2px solid rgb(190, 12, 12);
+}
+
+#finalResult {
+
+    color: rgb(5, 5, 96);
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 6rem;
+    width: 6rem;
+    background-image: url(img/6851302.png);
+    background-size: cover;
+    border-radius: 50%;
+
+}
