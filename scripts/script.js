@@ -57,7 +57,6 @@ function game() {
 
         document.getElementById('round' + (i + 1)).innerHTML = "Round " + round;
         document.getElementById('result' + (i + 1)).innerHTML = playRound(playerSelection, computerSelection);
-        /*console.log("Round " + round + ": " + playRound(playerSelection, computerSelection) + "<br>");*/
         round++;
 
     }
